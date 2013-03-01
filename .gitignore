@@ -1,1 +1,10 @@
+*.gem
+.bundle
 Gemfile.lock
+pkg/*
+.DS_Store
+*.swp
+fixture.html
+images
+results
+tmp
