@@ -10,7 +10,6 @@ module PageObject
         @@browser =  Watir::Browser.new target_browser if ENV['DRIVER'] == 'WATIR'
         @@browser =  Selenium::WebDriver.for target_browser if ENV['DRIVER'] == 'SELENIUM'
       end
-
       @@browser
     end
     def self.quit

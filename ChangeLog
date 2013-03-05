@@ -1,0 +1,9 @@
+
+=== Release 0.0.2 / 2013-3-4
+Add Dialog Box Support
+* Currently only works for watir-webdriver
+* Selenium webdriver is giving to_sym for NilClass error, investigating...
+
+=== Release 0.0.1 / 2013-3-1
+Initial empty shell release.  No functionality yet, but stay tunted.
+* gem install gwt_widgets

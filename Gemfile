@@ -6,5 +6,6 @@ gem 'fuubar-cucumber'
 gem 'growl'
 gem 'guard-rspec'
 gem 'guard-cucumber'
+gem 'pry'
 
 gemspec
