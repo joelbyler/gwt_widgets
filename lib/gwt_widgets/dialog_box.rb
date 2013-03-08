@@ -1,7 +1,7 @@
 class GwtWidgets::DialogBox < PageObject::Elements::Div
 
   def caption
-    div_element(:class => 'Caption').span_element.text
+    div_element(:class => 'Caption').text
   end
 
   def content

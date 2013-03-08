@@ -6,6 +6,8 @@ Feature: Using the gwt_dialog_box Dialog Box Widget
 
   Scenario: Getting information from the page
     Then I see the showcase dialog box
+    And I dialog box caption says "Sample DialogBox"
+    And I dialog box content contains "This is an example of a standard dialog box component."
 
   Scenario: Closing the dialog
     When I close the showcase dialog box

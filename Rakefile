@@ -23,7 +23,7 @@ namespace :features do
   end
 
   desc 'Run all features'
-  task :all => [:watir_webdriver, :selenium_webdriver]
+  task :all => [:watir_webdriver] #, :selenium_webdriver]
 end
 
 desc 'Run all specs and cukes'
