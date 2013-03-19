@@ -8,7 +8,7 @@ class DialogBoxPage
   gwt_dialogbox(:dialogbox, :class => 'gwt-DialogBox')
 
   def dialog_box
-    dialog_box_element
+    dialogbox_element
   end
 
 end
