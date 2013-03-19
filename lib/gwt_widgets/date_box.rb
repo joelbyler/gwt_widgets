@@ -1,6 +1,7 @@
 class GwtWidgets::DateBox < PageObject::Elements::Table
 
   def input
+    require 'pry'; binding.pry;
     text_field_element(:class => 'gwt-DateBox', :type => "text")
   end
 

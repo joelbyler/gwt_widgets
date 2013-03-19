@@ -1,4 +1,8 @@
 
+=== Release 0.0.3 / 2013-3-19
+Add Date Picker Support
+* This revision does not yet support the Date Box control
+
 === Release 0.0.2 / 2013-3-4
 Add Dialog Box Support
 * Currently only works for watir-webdriver

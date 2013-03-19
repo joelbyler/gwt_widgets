@@ -8,7 +8,7 @@ Feature: Using the gwt_dialog_box Dialog Box Widget
     Then I should see today's date highlighted on the date picker
     And I should see the 14th day selected on the date picker
 
-  Scenario: I choose a day from the date input box
-    Given I click in the date box field
-    When I choose the 16th day from the date box
-    Then I should see the 16th day in the date box field
+#  Scenario: I choose a day from the date input box
+#    Given I click in the date box field
+#    When I choose the 16th day from the date box
+#    Then I should see the 16th day in the date box field
