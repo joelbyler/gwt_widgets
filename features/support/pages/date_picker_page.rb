@@ -8,8 +8,4 @@ class DatePickerPage
     datepicker_element
   end
 
-  gwt_datebox(:datebox, :class => 'gwt-DateBox', :popup => true)
-  def datebox
-    datebox_element
-  end
 end

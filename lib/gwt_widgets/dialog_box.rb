@@ -5,7 +5,7 @@ class GwtWidgets::DialogBox < PageObject::Elements::Div
   end
 
   def content
-    div_element(:class => 'dialogMiddleCenterInner dialogContent').text
+    div_element(:class => 'dialogContent').text
   end
 
   def close

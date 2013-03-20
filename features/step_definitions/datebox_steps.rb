@@ -2,7 +2,7 @@
 Given /^I am on the showcase date picker page$/ do
   visit DatePickerPage
   @current_page.wait_until do
-    @current_page.browser.text.include? 'Permanent DatePicker:'
+    @current_page.text.include? 'Permanent DatePicker:'
   end
 end
 

@@ -3,7 +3,7 @@ class DialogBoxPage
 
   page_url "http://gwt.googleusercontent.com/samples/Showcase/Showcase.html#!CwDialogBox"
 
-  button(:show_dialog, :text => 'Show Dialog Box')
+  button(:show_dialog, :value => 'Show Dialog Box')
 
   gwt_dialogbox(:dialogbox, :class => 'gwt-DialogBox')
 
