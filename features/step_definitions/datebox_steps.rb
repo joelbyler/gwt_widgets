@@ -15,9 +15,10 @@ Given /^I choose the 16th day from the date box$/ do
   @current_page.datebox.choose_day 16
 end
 
-Then /^I should see the 16th day in the date box$/ do
+Then /^I see the 16th day in the date box$/ do
 end
 
-Then /^I should see the 16th day in the date box field$/ do
+Then /^I see the 16th day in the date box field$/ do
   @current_page.datebox.input.text.should == '16'
 end
+
