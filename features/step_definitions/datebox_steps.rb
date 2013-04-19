@@ -1,5 +1,5 @@
 
-Given /^I am on the showcase date picker page$/ do
+Given /^I am on the Showcase Date Picker page$/ do
   visit DatePickerPage
   @current_page.wait_until do
     @current_page.text.include? 'Permanent DatePicker:'

@@ -1,4 +1,4 @@
-Given /^I am on the showcase tab layout panel page$/ do
+Given /^I am on the Showcase Tab Layout Panel page$/ do
   visit TabPanelPage
   @current_page.wait_until do
     @current_page.text.include? 'Tab Layout Panel'

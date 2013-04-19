@@ -1,7 +1,7 @@
 Feature: Using the gwt_dialog_box Dialog Box Widget
 
   Background:
-    Given I am on the showcase date picker page
+    Given I am on the Showcase Date Picker page
 
   Scenario: I choose a day from the date picker
     Given I choose the 14th day from the date picker

@@ -1,7 +1,7 @@
 Feature: Using the GWT Tab Panel Widget
 
   Background:
-    Given I am on the showcase tab layout panel page
+    Given I am on the Showcase Tab Layout Panel page
 
   Scenario: User is presented with tabs
     Then I see a tab layout panel

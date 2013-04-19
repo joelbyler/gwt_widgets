@@ -1,12 +1,11 @@
-#class JQueryUIWidgets::Tabs < PageObject::Elements::UnorderedList
-class GwtWidgets::TabPanel < PageObject::Elements::Div
+class GwtWidgets::StackPanel < PageObject::Elements::Table
 
   def select(label)
     div_element(:class => 'cw-StackPanelHeader', :text => label).click
   end
 
   def selected
-    cell_element(:class => 'gwt-StackPanelItem-selected').text
+    div_element(:class => 'gwt-StackPanelItem-selected').text
   end
 
   def labels

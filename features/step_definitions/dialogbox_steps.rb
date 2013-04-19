@@ -1,4 +1,4 @@
-Given /^I am on the showcase dialog box page$/ do
+Given /^I am on the Showcase Dialog Box page$/ do
   visit DialogBoxPage
   @current_page.wait_until do
     @current_page.show_dialog?
