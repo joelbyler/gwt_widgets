@@ -12,6 +12,6 @@ module GwtWidgets
   PageObject.register_widget(:gwt_datebox, GwtWidgets::DateBox, 'input')
   PageObject.register_widget(:gwt_datepicker, GwtWidgets::DatePicker, 'table')
   PageObject.register_widget(:gwt_tabpanel, GwtWidgets::TabPanel, 'div')
-  PageObject.register_widget(:gwt_stackpanel, GwtWidgets::TabPanel, 'table')
+  PageObject.register_widget(:gwt_stackpanel, GwtWidgets::StackPanel, 'table')
 
 end
