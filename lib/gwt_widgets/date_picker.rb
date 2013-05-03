@@ -1,8 +1,7 @@
 class GwtWidgets::DatePicker < PageObject::Elements::Table
 
   def choose_day (day)
-    #div_element(:class => 'datePickerDay', :text => day.to_s).click
-    div_elements(:class => 'datePickerDay')[day.to_i].click
+    days_this_month[day.to_i - 1].click
   end
 
   def chosen_day
@@ -13,5 +12,11 @@ class GwtWidgets::DatePicker < PageObject::Elements::Table
     div_element(:class => 'datePickerDayIsToday').text
   end
 
+  private
+
+  def days_this_month
+    days = div_elements(:class => 'datePickerDay')
+    days.reject {|day|day.html.include?'IsFiller'}
+  end
 
 end
