@@ -1,3 +1,7 @@
+=== Release 0.0.7 / 2013-5-3
+Fix bug on datepicker which was causing a few days from month before and after current month to be included in the days
+Add suggestion box widget
+
 === Release 0.0.6 / 2013-4-19
 Add Stack Panel support
 
