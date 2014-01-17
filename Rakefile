@@ -27,7 +27,7 @@ namespace :features do
 end
 
 desc 'Run all specs and cukes'
-task :test => ['spec', 'features:all']
+task :test => ['features:all']
 
 task :default => :test
 

@@ -9,10 +9,10 @@ class GwtWidgets::SuggestBox < PageObject::Elements::TextField
       suggestion_box.parent.text_field_element.value = value
     end
     accessor.send :define_method, "#{name}_suggestions" do
-      browser.div(:class => 'gwt-SuggestBoxPopup').tds(:class => 'item').map(&:text)
+      div_element(:class => 'gwt-SuggestBoxPopup').cell_elements(:class => 'item').map(&:text)
     end
     accessor.send :define_method, "#{name}_choose" do | label |
-      browser.div(:class => 'gwt-SuggestBoxPopup').td(:class => 'item', :text => label).click
+      div_element(:class => 'gwt-SuggestBoxPopup').cell_element(:class => 'item', :text => label).click
     end
   end
 
