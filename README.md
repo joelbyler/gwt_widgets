@@ -2,6 +2,7 @@ This is a collection of widgets which simplify the testing of a GWT web applicat
 
 [![Build Status](https://travis-ci.org/joelbyler/gwt_widgets.png?branch=master)](https://travis-ci.org/joelbyler/gwt_widgets)
 [![Code Climate](https://codeclimate.com/github/joelbyler/gwt_widgets.png)](https://codeclimate.com/github/joelbyler/gwt_widgets)
+
 TODO: CAN HAZ MOAR READMEZ
 
 ## Known Issues
